@@ -78,7 +78,6 @@ namespace ConAppStoringDataUsingOOPs
                 }
 
                 Console.WriteLine("Press any key to continue...");
-                Console.Clear();
             }
         }
 
