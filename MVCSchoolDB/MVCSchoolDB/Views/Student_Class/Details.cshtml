@@ -1,0 +1,56 @@
+﻿@model MVCSchoolDB.Models.Student_Class
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Student_Class</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject_.SubName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject_.SubName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
