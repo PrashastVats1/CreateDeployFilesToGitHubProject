@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "r21Y4GFmxkvs+axK6bvNacBndgTOS+hv0zqP+jOQrJQ=",
+  "Source": "Phase2SchooDbWebAPI",
+  "BasePath": "_content/Phase2SchooDbWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
