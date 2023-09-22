@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - School Database</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <!-- Add custom CSS for styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .navbar {
+            background-color: #343a40 !important;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #ffffff !important;
+        }
+
+        .container.body-content {
+            background-color: #ffffff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #555;
+        }
+
+        /* Add more custom styles as needed */
+
+        /* Styles for tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #343a40;
+            color: #fff;
+        }
+
+        /* Add more table styles as needed */
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <div class="container">
+            <!-- Update the application name and links as needed -->
+            @Html.ActionLink("School Database", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    title="Toggle navigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Students", "Index", "Students", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Marks", "Index", "Marks", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Statistics", "Statistics", "Students", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    @RenderBody() <!-- This is where child views will inject their content -->
+    <hr />
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <footer>
+        <p>&copy; @DateTime.Now.Year - School Database</p>
+    </footer>
+</body>
+</html>
