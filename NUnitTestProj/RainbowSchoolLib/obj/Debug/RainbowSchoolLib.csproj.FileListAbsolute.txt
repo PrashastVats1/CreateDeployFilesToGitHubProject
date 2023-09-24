@@ -1,0 +1,6 @@
+D:\Mphasis\Live-Session\SimpliLearn Projects\Practice Projects\Phase3NunitMoqTest\NUnitTestProj\RainbowSchoolLib\bin\Debug\RainbowSchoolLib.dll
+D:\Mphasis\Live-Session\SimpliLearn Projects\Practice Projects\Phase3NunitMoqTest\NUnitTestProj\RainbowSchoolLib\bin\Debug\RainbowSchoolLib.pdb
+D:\Mphasis\Live-Session\SimpliLearn Projects\Practice Projects\Phase3NunitMoqTest\NUnitTestProj\RainbowSchoolLib\obj\Debug\RainbowSchoolLib.csproj.AssemblyReference.cache
+D:\Mphasis\Live-Session\SimpliLearn Projects\Practice Projects\Phase3NunitMoqTest\NUnitTestProj\RainbowSchoolLib\obj\Debug\RainbowSchoolLib.csproj.CoreCompileInputs.cache
+D:\Mphasis\Live-Session\SimpliLearn Projects\Practice Projects\Phase3NunitMoqTest\NUnitTestProj\RainbowSchoolLib\obj\Debug\RainbowSchoolLib.dll
+D:\Mphasis\Live-Session\SimpliLearn Projects\Practice Projects\Phase3NunitMoqTest\NUnitTestProj\RainbowSchoolLib\obj\Debug\RainbowSchoolLib.pdb
