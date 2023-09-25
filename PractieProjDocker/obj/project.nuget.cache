@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vSPkchM3d8yWNFSrtJoXkoqxJqwUH2DLf8cs4fff777gi1/Dmybj1sjVNAPkMEHQ68Ju36oyprcbtErFS8FlhQ==",
+  "success": true,
+  "projectFilePath": "D:\\Mphasis\\Live-Session\\SimpliLearn Projects\\Practice-Projects\\PractieProjDocker\\PractieProjDocker\\PractieProjDocker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Prashast Vats\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}
